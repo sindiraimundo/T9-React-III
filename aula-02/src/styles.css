@@ -1,0 +1,11 @@
+*{/* * O "*" serve para dizer que será para todas as páginas */
+    margin: 0;
+    padding: 0;
+    outline: 0;/* tratar as bordas*/
+    box-sizing: border-box; /*mantém padronizado, adaptar as dimensões dos elementos*/
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #4885ca;
+}
