@@ -10,7 +10,7 @@
 }
 
 .biography-description-more{
-    font-size: 16px;
+    font-size: 18px;
     color: #928A92;
     margin-top: 10px;
     line-height: 24px;
@@ -29,7 +29,7 @@
     margin-top: 10px;
     justify-content: center;
     align-items: center;
-    transition: all 0.4s;
+    transition: all 0.10s;
 }
 
 .biography-list-more a:hover{

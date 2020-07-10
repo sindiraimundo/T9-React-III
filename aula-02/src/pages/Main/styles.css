@@ -32,11 +32,34 @@
     margin-top: 10px;
     justify-content: center;
     align-items: center;
-    transition: all 0.4s;
+    transition: all 0.10s;
 }
 
 .biography-list article a:hover{
     background: #153B8E;
     color:#FFF;
 
+}
+
+.biography-list .actions{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.biography-list .actions button{
+    background: #153B8E;
+    color:#FFF;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: wait;
+    transition:  all 0.3s;
+}
+
+.biography-list .actions button[disabled]{
+    opacity: 0.4;
+    cursor: default;
 }

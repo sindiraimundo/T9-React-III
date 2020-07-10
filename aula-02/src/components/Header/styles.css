@@ -1,9 +1,10 @@
 header#main-header{
-    background:#5742df;
-    height: 80px;
-    font-size: 18px;
+    /* background:#5742df; */
+    background: url(https://i.pinimg.com/originals/6d/24/a2/6d24a280c816a08992be60c8a05dbc03.gif);
+    height: 228px;
+    font-size: 20px;
     font-weight: bold;
-    color:#FFF;
+    color:#5742df;
     display: flex;
     align-items: center;
     justify-content: center;
